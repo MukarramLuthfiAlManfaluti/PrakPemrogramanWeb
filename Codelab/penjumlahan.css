@@ -1,0 +1,56 @@
+/* Mengatur gaya dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    margin: 0;
+}
+
+/* Mengatur kontainer agar terlihat rapi */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Mengatur input form */
+input {
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}   
+
+/* Mengatur gaya tombol */
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Gaya untuk tombol reset */
+button.reset {
+    background-color: #f44336;
+}
+
+/* Mengatur tampilan hasil */
+h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+h3 span {
+    color: #4CAF50;
+}
