@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: yellow;
+    color: black;
+}
+
+td:nth-child(1) {
+    background-color: aqua;
+}
+
+td:nth-child(2) {
+    background-color: black;
+    color: white;
+}
+
+td:nth-child(3) {
+    background-color: pink;
+}
+
+td {
+    font-weight: bold;
+}
